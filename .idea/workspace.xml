@@ -2,24 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c973b9b-aed1-47b1-b938-9b751fa0b598" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/InsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/bubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/bucketSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/heapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/selectSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/shellSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/extendOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/shellSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/staticOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/threadOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataStructure/MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/function/Pow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/javaBasic/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/javaBasic/META-INF/javaBasic.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/javaBasic/function/gcd_lcm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/javaBasic/sort/mergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/javaBasic/sort/quickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/sort/InsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/sort/InsertSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/sort/bubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/sort/bubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/sort/bucketSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/sort/bucketSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/sort/heapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/sort/heapSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/sort/mergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/sort/mergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/sort/quickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/sort/quickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/sort/selectSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/sort/selectSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/sort/shellSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/sort/shellSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/test/extendOrder$A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/test/extendOrder$A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/test/extendOrder$B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/test/extendOrder$B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/test/extendOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/test/extendOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/test/threadOrder$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/test/threadOrder$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/test/threadOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/test/threadOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/InsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/bubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/bucketSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/bucketSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/heapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/heapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/mergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/mergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/quickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/selectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/selectSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/shellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/shellSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +58,53 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.extendOrder">
+  <component name="RunManager" selected="Application.Fibo">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort.BubbleSort" />
+      <module name="javaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fibo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Fibo" />
+      <module name="javaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="javaBasic" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataStructure.MinStack" />
+      <module name="javaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataStructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="extendOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.extendOrder" />
       <module name="javaBasic" />
@@ -65,51 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="shellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.shellSort" />
-      <module name="javaBasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.extendOrder" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="staticOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.staticOrder" />
-      <module name="javaBasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.extendOrder" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="threadOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.threadOrder" />
-      <module name="javaBasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Fibo" />
+        <item itemvalue="Application.MinStack" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.extendOrder" />
-        <item itemvalue="Application.staticOrder" />
-        <item itemvalue="Application.threadOrder" />
-        <item itemvalue="Application.shellSort" />
       </list>
     </recent_temporary>
   </component>
@@ -127,6 +142,10 @@
       <workItem from="1585661433419" duration="3337000" />
       <workItem from="1585670158567" duration="5100000" />
       <workItem from="1585711665067" duration="833000" />
+      <workItem from="1585738828356" duration="47000" />
+      <workItem from="1585789527860" duration="329000" />
+      <workItem from="1585876662605" duration="1431000" />
+      <workItem from="1585878531819" duration="2825000" />
     </task>
     <servers />
   </component>
@@ -134,21 +153,37 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="197" key="GridCell.Tab.0.bottom" timestamp="1585691988282">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="378" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1585876805428">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="378" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.800@0.0.1280.800" timestamp="1585876805428" />
+    <state width="1238" height="211" key="GridCell.Tab.0.bottom" timestamp="1585884520507">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585884520507" />
     <state width="1238" height="197" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1585691988282" />
-    <state width="1238" height="197" key="GridCell.Tab.0.center" timestamp="1585691988281">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="1238" height="211" key="GridCell.Tab.0.center" timestamp="1585884520505">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state width="1238" height="211" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1585884520505" />
     <state width="1238" height="197" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1585691988281" />
-    <state width="1238" height="197" key="GridCell.Tab.0.left" timestamp="1585691988280">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="1238" height="211" key="GridCell.Tab.0.left" timestamp="1585884520505">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state width="1238" height="211" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1585884520505" />
     <state width="1238" height="197" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1585691988280" />
-    <state width="1238" height="197" key="GridCell.Tab.0.right" timestamp="1585691988281">
+    <state width="1238" height="211" key="GridCell.Tab.0.right" timestamp="1585884520506">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="211" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1585884520506" />
+    <state width="1238" height="197" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1585691988281" />
+    <state x="378" y="170" key="extract.method.dialog" timestamp="1585884381203">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="378" y="170" key="extract.method.dialog/0.0.1280.800@0.0.1280.800" timestamp="1585884381203" />
+    <state x="17" y="34" key="new project wizard" timestamp="1585738871489">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="197" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1585691988281" />
+    <state x="17" y="34" key="new project wizard/0.23.1280.777@0.23.1280.777" timestamp="1585738871489" />
   </component>
 </project>

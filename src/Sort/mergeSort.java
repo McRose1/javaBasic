@@ -1,4 +1,4 @@
-package sort;
+package Sort;
 
 /*  Merge Sort
     Time = O(n * logn) Space = O(n)

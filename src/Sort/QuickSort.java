@@ -1,4 +1,4 @@
-package sort;
+package Sort;
 
 /*  Quick Sort
     Time = O(n * logn) -> O(n^2) Space = O(1)
@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
-public class quickSort {
+public class QuickSort {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
         Scanner in = new Scanner(System.in);
