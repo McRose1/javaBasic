@@ -2,8 +2,24 @@ package Sort;
 
 /*  冒泡排序
     每次比较两个相邻的元素，将较大的元素交换至右端
+    每一次循环都能确定这次循环右边的最大值
     Time = O(n^2) (best: O(n))
     Space = O(1)
+    [3, 1, 6, 2, 5]
+    1st:
+    1 3 6 2 5
+    1 3 6 2 5
+    1 3 2 6 5
+    1 3 2 5 6
+    2nd:
+    1 3 2 5
+    1 2 3 5
+    1 2 3 5
+    3rd:
+    1 3 2
+    1 2 3
+    4th:
+    1 2
  */
 
 import java.util.ArrayList;
@@ -27,11 +43,12 @@ public class BubbleSort {
         for (int i = 0; i < nums.length; i++) {
             nums[i] = list.get(i);
         }
-
-        for (int n = 0; n < nums.length; n++) {
-            for (int i = 0; i < nums.length - 1; i++) {
-                if (nums[i] >= nums[i + 1]) {
-                    swap(nums, i, i + 1);
+        // 循环 len-1 次
+        for (int i = nums.length - 1; i > 0; i--) {
+            // 每次循环的比较都会减 1
+            for (int j = 0; j < i; j++) {
+                if (nums[j] >= nums[j + 1]) {
+                    swap(nums, j, j + 1);
                 }
             }
         }

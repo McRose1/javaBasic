@@ -19,15 +19,12 @@ public class gcd_lcm {
         System.out.println(gcd);
         System.out.println(lcm);
     }
-    private static int gcd(int a, int b) {
-        if (a < b) {
-            int temp = a;
-            a = b;
-            b = temp;
+    private static int gcd(int a, int b) {  // a = 2, b = 6
+        while (b != 0) {                           // b = 6; 2; 0
+            int temp = a % b;               // temp = 2 % 6 = 2; 6 % 2 = 0
+            a = b;                          // a = 6; 2
+            b = temp;                       // b = 2; 0
         }
-        if (a % b == 0) {
-            return b;
-        }
-        return gcd(a, a % b);
+        return a;                               // a = 2
     }
 }
