@@ -1,4 +1,4 @@
-package function;
+package Function;
 
 /*  求两个数字的最大公约数
     辗转相乘法（欧几里得算法）
