@@ -1,6 +1,4 @@
-package test;
-
-import java.util.Comparator;
+package Test;
 
 public class shellSort {
     public static void main(String[] args) {

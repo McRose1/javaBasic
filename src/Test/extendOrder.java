@@ -1,4 +1,4 @@
-package test;
+package Test;
 
 /*
     多态典型的标志,父类引用指向子类对象。

@@ -1,4 +1,4 @@
-package test;
+package Test;
 
 /*
     run()方法不会启动新的线程，这里只有一个主线程，所以顺序执行，只能是 pongping；

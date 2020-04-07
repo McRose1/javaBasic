@@ -1,4 +1,4 @@
-package test;
+package Test;
 
 /*
     创建类的静态变量和实例变量都会触发类加载；
