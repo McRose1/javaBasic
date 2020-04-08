@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c973b9b-aed1-47b1-b938-9b751fa0b598" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Test/charArraytoString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/javaBasic/sort/InsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/sort/InsertSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/sort/selectSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/sort/selectSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/test/extendOrder$A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/test/extendOrder$A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/test/extendOrder$B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/test/extendOrder$B.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/test/extendOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/test/extendOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/test/shellSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/test/shellSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/test/staticOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/test/staticOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/test/threadOrder$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/test/threadOrder$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/test/threadOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/test/threadOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/InsertSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sort/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/SelectSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sort/shellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/ShellSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/extendOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/extendOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/shellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/shellSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/staticOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/staticOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/threadOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/threadOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/sort/shellSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/sort/shellSort.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +37,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.InsertSort">
+  <component name="RunManager" selected="Application.binarySearch">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Search.BinarySearch" />
       <module name="javaBasic" />
@@ -79,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Function.Pow" />
+    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort.SelectSort" />
       <module name="javaBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Function.*" />
+          <option name="PATTERN" value="Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.SelectSort" />
+    <configuration name="binarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.binarySearch" />
       <module name="javaBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.binarySearch" />
         <item itemvalue="Application.InsertSort" />
         <item itemvalue="Application.SelectSort" />
         <item itemvalue="Application.charArraytoString" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.Pow" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +138,7 @@
       <workItem from="1586051447626" duration="3448000" />
       <workItem from="1586187516526" duration="310000" />
       <workItem from="1586226871633" duration="1369000" />
+      <workItem from="1586307189713" duration="321000" />
     </task>
     <servers />
   </component>
@@ -164,29 +150,29 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.800@0.0.1280.800" timestamp="1585876805428" />
-    <state width="1238" height="196" key="GridCell.Tab.0.bottom" timestamp="1586228345659">
+    <state width="1238" height="196" key="GridCell.Tab.0.bottom" timestamp="1586309294201">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585889041294" />
-    <state width="1238" height="196" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1586228345659" />
+    <state width="1238" height="196" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1586309294201" />
     <state width="1238" height="196" key="GridCell.Tab.0.bottom/153.800.1024.768/0.23.1280.777@0.23.1280.777" timestamp="1585939939804" />
-    <state width="1238" height="196" key="GridCell.Tab.0.center" timestamp="1586228345658">
+    <state width="1238" height="196" key="GridCell.Tab.0.center" timestamp="1586309294201">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1585889041293" />
-    <state width="1238" height="196" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1586228345658" />
+    <state width="1238" height="196" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1586309294201" />
     <state width="1238" height="196" key="GridCell.Tab.0.center/153.800.1024.768/0.23.1280.777@0.23.1280.777" timestamp="1585939939803" />
-    <state width="1238" height="196" key="GridCell.Tab.0.left" timestamp="1586228345657">
+    <state width="1238" height="196" key="GridCell.Tab.0.left" timestamp="1586309294201">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1585889041292" />
-    <state width="1238" height="196" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1586228345657" />
+    <state width="1238" height="196" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1586309294201" />
     <state width="1238" height="196" key="GridCell.Tab.0.left/153.800.1024.768/0.23.1280.777@0.23.1280.777" timestamp="1585939939803" />
-    <state width="1238" height="196" key="GridCell.Tab.0.right" timestamp="1586228345659">
+    <state width="1238" height="196" key="GridCell.Tab.0.right" timestamp="1586309294201">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1585889041293" />
-    <state width="1238" height="196" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1586228345659" />
+    <state width="1238" height="196" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1586309294201" />
     <state width="1238" height="196" key="GridCell.Tab.0.right/153.800.1024.768/0.23.1280.777@0.23.1280.777" timestamp="1585939939804" />
     <state x="141" y="50" key="SettingsEditor" timestamp="1586051673478">
       <screen x="0" y="23" width="1280" height="777" />
