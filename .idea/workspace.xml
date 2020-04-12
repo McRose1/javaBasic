@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c973b9b-aed1-47b1-b938-9b751fa0b598" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DataStructure/TrieNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/KMP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/META-INF/javaBasic.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +28,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -36,7 +37,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.isPrime">
+  <component name="RunManager" selected="Application.QuickSort">
     <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sort.InsertSort" />
       <module name="javaBasic" />
@@ -50,8 +51,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.SelectSort" />
+    <configuration name="KMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.KMP" />
+      <module name="javaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort.QuickSort" />
       <module name="javaBasic" />
       <extension name="coverage">
         <pattern>
@@ -65,19 +79,6 @@
     </configuration>
     <configuration name="binarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.binarySearch" />
-      <module name="javaBasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="charArraytoString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.charArraytoString" />
       <module name="javaBasic" />
       <extension name="coverage">
         <pattern>
@@ -104,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.KMP" />
         <item itemvalue="Application.isPrime" />
         <item itemvalue="Application.binarySearch" />
         <item itemvalue="Application.InsertSort" />
-        <item itemvalue="Application.SelectSort" />
-        <item itemvalue="Application.charArraytoString" />
       </list>
     </recent_temporary>
   </component>
@@ -141,45 +142,57 @@
       <workItem from="1586450570215" duration="1026000" />
       <workItem from="1586480720515" duration="2000" />
       <workItem from="1586545016994" duration="2332000" />
+      <workItem from="1586631983378" duration="4183000" />
+      <workItem from="1586642649647" duration="11000" />
+      <workItem from="1586642806257" duration="128000" />
+      <workItem from="1586644205795" duration="1445000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="378" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1585876805428">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.800@0.0.1280.800" timestamp="1585876805428" />
-    <state width="1238" height="196" key="GridCell.Tab.0.bottom" timestamp="1586452202934">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="982" height="215" key="GridCell.Tab.0.bottom" timestamp="1586645814780">
+      <screen x="153" y="823" width="1024" height="745" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585889041294" />
     <state width="1238" height="196" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1586309294201" />
+    <state width="982" height="215" key="GridCell.Tab.0.bottom/153.800.1024.768/0.0.1280.800@153.800.1024.768" timestamp="1586645527222" />
     <state width="1238" height="196" key="GridCell.Tab.0.bottom/153.800.1024.768/0.23.1280.777@0.23.1280.777" timestamp="1585939939804" />
     <state width="1238" height="196" key="GridCell.Tab.0.bottom/153.823.1024.745/0.23.1280.777@0.23.1280.777" timestamp="1586452202934" />
-    <state width="1238" height="196" key="GridCell.Tab.0.center" timestamp="1586452202930">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="982" height="215" key="GridCell.Tab.0.bottom/153.823.1024.745/0.23.1280.777@153.823.1024.745" timestamp="1586645814780" />
+    <state width="982" height="215" key="GridCell.Tab.0.center" timestamp="1586645814778">
+      <screen x="153" y="823" width="1024" height="745" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1585889041293" />
     <state width="1238" height="196" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1586309294201" />
+    <state width="982" height="215" key="GridCell.Tab.0.center/153.800.1024.768/0.0.1280.800@153.800.1024.768" timestamp="1586645527220" />
     <state width="1238" height="196" key="GridCell.Tab.0.center/153.800.1024.768/0.23.1280.777@0.23.1280.777" timestamp="1585939939803" />
     <state width="1238" height="196" key="GridCell.Tab.0.center/153.823.1024.745/0.23.1280.777@0.23.1280.777" timestamp="1586452202930" />
-    <state width="1238" height="196" key="GridCell.Tab.0.left" timestamp="1586452202929">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="982" height="215" key="GridCell.Tab.0.center/153.823.1024.745/0.23.1280.777@153.823.1024.745" timestamp="1586645814778" />
+    <state width="982" height="215" key="GridCell.Tab.0.left" timestamp="1586645814775">
+      <screen x="153" y="823" width="1024" height="745" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1585889041292" />
     <state width="1238" height="196" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1586309294201" />
+    <state width="982" height="215" key="GridCell.Tab.0.left/153.800.1024.768/0.0.1280.800@153.800.1024.768" timestamp="1586645527218" />
     <state width="1238" height="196" key="GridCell.Tab.0.left/153.800.1024.768/0.23.1280.777@0.23.1280.777" timestamp="1585939939803" />
     <state width="1238" height="196" key="GridCell.Tab.0.left/153.823.1024.745/0.23.1280.777@0.23.1280.777" timestamp="1586452202929" />
-    <state width="1238" height="196" key="GridCell.Tab.0.right" timestamp="1586452202930">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="982" height="215" key="GridCell.Tab.0.left/153.823.1024.745/0.23.1280.777@153.823.1024.745" timestamp="1586645814775" />
+    <state width="982" height="215" key="GridCell.Tab.0.right" timestamp="1586645814779">
+      <screen x="153" y="823" width="1024" height="745" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1585889041293" />
     <state width="1238" height="196" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1586309294201" />
+    <state width="982" height="215" key="GridCell.Tab.0.right/153.800.1024.768/0.0.1280.800@153.800.1024.768" timestamp="1586645527221" />
     <state width="1238" height="196" key="GridCell.Tab.0.right/153.800.1024.768/0.23.1280.777@0.23.1280.777" timestamp="1585939939804" />
     <state width="1238" height="196" key="GridCell.Tab.0.right/153.823.1024.745/0.23.1280.777@0.23.1280.777" timestamp="1586452202930" />
+    <state width="982" height="215" key="GridCell.Tab.0.right/153.823.1024.745/0.23.1280.777@153.823.1024.745" timestamp="1586645814779" />
     <state x="141" y="50" key="SettingsEditor" timestamp="1586051673478">
       <screen x="0" y="23" width="1280" height="777" />
     </state>

@@ -46,7 +46,7 @@ public class QuickSort {
     private static int partition(int[] nums, int left, int right) {
         Random random = new Random();
         // 随机选取 pivot
-        int pivotIndex = random.nextInt(right - left + 1) + left;
+        int pivotIndex = left + random.nextInt(right - left + 1);
         // 记录 pivot 的值，以便后面比较
         int pivotValue = nums[pivotIndex];
         // 记录最后一个元素的位置，因为最后还要把 pivot 换回去
@@ -75,3 +75,28 @@ public class QuickSort {
         nums[b] = temp;
     }
 }
+
+/*  Another version of partition
+
+    private static int partition(int[] nums, int left, int right) {
+        Random random = new Random();
+        // 随机选取 pivot
+        int pivotIndex = left + random.nextInt(right - left + 1);
+        // 记录 pivot 的值，以便后面比较
+        int pivotValue = nums[pivotIndex];
+        // 1. move pivot to end
+        swap(nums, pivotIndex, right);
+        int store_index = left;
+        // 2. move all smaller elements to the left
+        for (int i = left; i <= right; i++) {
+            if (nums[i] < pivotValue) {
+                swap(nums, i, store_index);
+                store_index++;
+            }
+        }
+        // 3. move pivot to its final place
+        swap(nums, right, store_index);
+
+        return store_index;
+    }
+ */
