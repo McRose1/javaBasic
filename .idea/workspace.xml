@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c973b9b-aed1-47b1-b938-9b751fa0b598" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Test/mapPut.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/Test/test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/Test/test1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/Test/test2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/Test/test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/InsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort/mergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,6 +152,8 @@
       <workItem from="1586927086352" duration="90000" />
       <workItem from="1586991597226" duration="1381000" />
       <workItem from="1587135292942" duration="195000" />
+      <workItem from="1587435443533" duration="585000" />
+      <workItem from="1587437942670" duration="247000" />
     </task>
     <servers />
   </component>

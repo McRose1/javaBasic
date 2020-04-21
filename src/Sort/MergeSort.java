@@ -9,7 +9,7 @@ package Sort;
 
 import java.util.*;
 
-public class mergeSort {
+public class MergeSort {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
         // 第一个 scanner 以行为单位读取数据，相当于是用回车（enter）当做结束符
