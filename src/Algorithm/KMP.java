@@ -25,20 +25,23 @@ package Algorithm;
 
 public class KMP {
     public static void main(String[] args) {
-        String text = "bbcabcdababcdabcdabd";
+        String text = "abcdababcdabcdabd";
         String pattern = "abcdabd";
         int m = text.length();
         int n = pattern.length();
-        int[] next = kmpPreprocess(pattern);
+        int[] next = nextKMP(pattern);                // [-1 0 0 0 0 1 2]
+        int[] pi = piKMP(pattern);                    // [ 0 0 0 0 1 2 3]
 
+        // 主串指针
         int i = 0;
+        // 模式串指针
         int k = 0;
         while (i < m && k < n) {
-            if (k == -1 || text.charAt(i) == pattern.charAt(k)) {
-                i++;
-                k++;
+            if (k == -1 || text.charAt(i) == pattern.charAt(k)) {   // abcdab;  t.charAt(6) = 'a', p.charAt(2) = 'c'
+                i++;                                                // i = 6
+                k++;                                                // k = 6
             } else {
-                k = next[k];
+                k = next[k];            // k = next[6] = 2; k = next[2] = 0
             }
         }
         if (k == pattern.length()) {
@@ -46,11 +49,57 @@ public class KMP {
         } else {
             System.out.println("no match");
         }
+
+        int i1 = 0;
+        int k1 = 0;
+        while (i1 < m && k1 < n) {
+            if (text.charAt(i1) == pattern.charAt(k1)) {
+                i1++;
+                k1++;
+            } else {
+                if (k1 != 0) {
+                    k1 = pi[k1 - 1];
+                } else {
+                    i1++;
+                }
+            }
+        }
+        if (k1 == pattern.length()) {
+            System.out.println(i1 - k1);
+        } else {
+            System.out.println("no match");
+        }
+    }
+
+    private static int[] piKMP(String pattern) {
+        int[] pi = new int[pattern.length()];
+        pi[0] = 0;
+        int k = 0;
+        int j = 1;
+
+        while (j < pattern.length()) {
+            if (pattern.charAt(k) == pattern.charAt(j)) {
+                k++;
+                pi[j] = k;
+                j++;
+            } else {
+                if (k != 0) {
+                    // 不断回退
+                    k = pi[k - 1];
+                } else {
+                    // 直到回到前缀初始点，才能判断当前位置的最终值
+                    pi[j] = k;
+                    // 并且开始下一个字符的判断
+                    j++;
+                }
+            }
+        }
+        return pi;
     }
 
     // 构建属于 pattern 的 next 数组
     // next[j] = k: pattern[0 ~ k-1] = pattern[j-k ~ j-1]
-    private static int[] kmpPreprocess(String pattern) {
+    private static int[] nextKMP(String pattern) {
         int n = pattern.length();      // n = 7
         int[] next = new int[n];
         next[0] = -1;
