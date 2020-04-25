@@ -1,4 +1,4 @@
-package Function;
+package MathFunction;
 
 /*  实现 Sqrt(x)
     x is non-negative integer

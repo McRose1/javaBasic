@@ -1,0 +1,119 @@
+所谓 KMP，一般用于模式串对于主串的匹配问题，用于输出主串中匹配模式串的 index
+假设主串的长度为 m，模式串的长度为 n，KMP 的时间复杂度为 Time = O(m + n)
+因为 KMP 算法的核心是构建模式串的前后缀部分匹配表，所以空间复杂度为 Space = O(n)
+
+其中心思想是：当模式串已经匹配到了某个位置，这时候发生了不匹配的情况，
+普通的做法是将主串的匹配起点向后移动一位，模式串从开头 index 为 0 重新开始匹配
+例如：
+S:  a b c d a b a b c d a b c d a b d 
+P:  a b c d a b d(失配)
+下一步:
+S:  a b c d a b a b c d a b c d a b d 
+P: -> a b c d a b d
+
+而 KMP 的改进在于，通过发掘模式串本身的最长公共前后缀，当我们失配时，不需要让模式串从头开始匹配，而是从已经匹配的前缀继续匹配主串的下一个字符
+例如：
+S:  a b c d a b a b c d a b c d a b d 
+P:  a b c d a b d(失配)
+下一步:
+S:  a b c d a b a b c d a b c d a b d 
+P: ->       a b c d a b d
+
+虽然主串的 index 都是往右移动一位，并没有差别，但是模式串
+
+而这里的：从已经匹配的继续，这个信息，就是我们从部分匹配表获取到了
+
+我们先来看一下如何构建部分匹配表
+一般有两种设定，这里我们使用 next 数组的方式，将 next[0] = -1，数组中的每个元素代表该位置前面的字符串的最长公共前后缀
+
+String text = "abcdababcdabcdabd";
+String pattern = "abcdabd";
+
+         0 1 2 3 4 5 6
+对于模式串 a b c d a b d 来说，它所对应的 next 数组：
+next[]  [-1 0 0 0 0 1 2]   
+很容易手动构建出这个 next 数组，那么怎么用代码实现呢
+其实构建部分匹配表的过程是通过双指针实现的
+初始化：
+int k = -1; 表示前缀
+int j = 0;  表示后缀  
+if (k == -1 || p.charAt(k) == p.charAt(j))
+k++; ->  k = 0
+i++; ->  i = 1
+next[j] = k; -> next[1] = 0
+
+a b c d a b d
+k
+  j
+else k = next[k]
+k = next[0] = -1（每次回到 -1 又可以自动向前一步到 index 0，顺便将此时的 next[j] 置零，代表上一轮的前后缀不匹配）
+
+k = 0
+j = 2
+next[2] = 0
+
+a b c d a b d
+k
+    j
+k = next[k] = -1;
+
+k = 0
+j = 3
+next[3] = 0
+
+a b c d a b d
+k
+      j
+k = next[k] = -1;
+
+k = 0
+j = 4
+next[4] = 0
+
+a b c d a b d
+k
+        j
+k = 1
+j = 5
+next[5] = 1  
+
+a b c d a b d
+  k
+          j
+k = 2
+j = 6
+next[6] = 2
+
+while (j < n - 1) j = 6 < 6 ? 退出循环
+相当于我们不关心最后一个字符是否匹配，因为 next 数组里不包含对于模式串整串的最长公共前后缀信息
+
+然后我们就可以回到主函数，同样利用双指针
+主串指针和模式串指针，都从 0 开始遍历
+遇到不匹配的情况，模式串指针 k = next[k]
+
+
+还有另一种 pi 数组的写法：
+
+int[] pi = new int[s.length()];
+  pi[0] = 0;
+  // 前缀
+  int k = 0;
+  // 后缀
+  int j = 1;
+
+  while (j < s.length()) {
+      if (s.charAt(k) == s.charAt(j)) {
+          k++;
+          pi[j] = k;
+          j++;
+      } else {
+          if (k != 0) {
+              k = pi[k - 1];
+          } else {
+              pi[j] = k;
+              j++;
+          }
+      }
+  }
+
+

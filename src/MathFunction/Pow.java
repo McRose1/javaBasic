@@ -1,4 +1,4 @@
-package Function;
+package MathFunction;
 
 /*  实现 Pow(x, n)
     -100.0 < x < 100.0

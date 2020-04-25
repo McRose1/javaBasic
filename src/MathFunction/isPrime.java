@@ -1,4 +1,4 @@
-package Function;
+package MathFunction;
 
 /*  判断一个 int 是否为 prime number
     对正整数n（除了 2 是质数），如果用 2 到 根号n 之间的所有整数去除，均无法整除，则n为质数
