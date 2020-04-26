@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c973b9b-aed1-47b1-b938-9b751fa0b598" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/UnionFind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MathFunction/SqrtX_Y.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/Function/Sqrt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/Function/isPrime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/META-INF/javaBasic.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/function/Pow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/function/gcd_lcm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/sort/bucketSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/sort/bucketSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/sort/heapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/sort/heapSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Function/Pow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MathFunction/Pow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Function/Sqrt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MathFunction/Sqrt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Function/gcd_lcm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MathFunction/gcd_lcm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Function/isPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MathFunction/isPrime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,38 +183,38 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="340" y="220" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.777@0.23.1280.777" timestamp="1587509481302" />
-    <state width="1238" height="135" key="GridCell.Tab.0.bottom" timestamp="1587782419408">
+    <state width="1238" height="135" key="GridCell.Tab.0.bottom" timestamp="1587794754023">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585889041294" />
-    <state width="1238" height="135" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1587782419408" />
+    <state width="1238" height="135" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1587794754023" />
     <state width="982" height="215" key="GridCell.Tab.0.bottom/153.800.1024.768/0.0.1280.800@153.800.1024.768" timestamp="1586645527222" />
     <state width="1238" height="210" key="GridCell.Tab.0.bottom/153.800.1024.768/0.23.1280.777@0.23.1280.777" timestamp="1587135487726" />
     <state width="1238" height="210" key="GridCell.Tab.0.bottom/153.823.1024.745/0.23.1280.777@0.23.1280.777" timestamp="1586794721543" />
     <state width="982" height="215" key="GridCell.Tab.0.bottom/153.823.1024.745/0.23.1280.777@153.823.1024.745" timestamp="1586645814780" />
-    <state width="1238" height="135" key="GridCell.Tab.0.center" timestamp="1587782419407">
+    <state width="1238" height="135" key="GridCell.Tab.0.center" timestamp="1587794754022">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1585889041293" />
-    <state width="1238" height="135" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1587782419407" />
+    <state width="1238" height="135" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1587794754022" />
     <state width="982" height="215" key="GridCell.Tab.0.center/153.800.1024.768/0.0.1280.800@153.800.1024.768" timestamp="1586645527220" />
     <state width="1238" height="210" key="GridCell.Tab.0.center/153.800.1024.768/0.23.1280.777@0.23.1280.777" timestamp="1587135487724" />
     <state width="1238" height="210" key="GridCell.Tab.0.center/153.823.1024.745/0.23.1280.777@0.23.1280.777" timestamp="1586794721542" />
     <state width="982" height="215" key="GridCell.Tab.0.center/153.823.1024.745/0.23.1280.777@153.823.1024.745" timestamp="1586645814778" />
-    <state width="1238" height="135" key="GridCell.Tab.0.left" timestamp="1587782419406">
+    <state width="1238" height="135" key="GridCell.Tab.0.left" timestamp="1587794754022">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1585889041292" />
-    <state width="1238" height="135" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1587782419406" />
+    <state width="1238" height="135" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1587794754022" />
     <state width="982" height="215" key="GridCell.Tab.0.left/153.800.1024.768/0.0.1280.800@153.800.1024.768" timestamp="1586645527218" />
     <state width="1238" height="210" key="GridCell.Tab.0.left/153.800.1024.768/0.23.1280.777@0.23.1280.777" timestamp="1587135487724" />
     <state width="1238" height="210" key="GridCell.Tab.0.left/153.823.1024.745/0.23.1280.777@0.23.1280.777" timestamp="1586794721542" />
     <state width="982" height="215" key="GridCell.Tab.0.left/153.823.1024.745/0.23.1280.777@153.823.1024.745" timestamp="1586645814775" />
-    <state width="1238" height="135" key="GridCell.Tab.0.right" timestamp="1587782419408">
+    <state width="1238" height="135" key="GridCell.Tab.0.right" timestamp="1587794754023">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1585889041293" />
-    <state width="1238" height="135" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1587782419408" />
+    <state width="1238" height="135" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1587794754023" />
     <state width="982" height="215" key="GridCell.Tab.0.right/153.800.1024.768/0.0.1280.800@153.800.1024.768" timestamp="1586645527221" />
     <state width="1238" height="210" key="GridCell.Tab.0.right/153.800.1024.768/0.23.1280.777@0.23.1280.777" timestamp="1587135487725" />
     <state width="1238" height="210" key="GridCell.Tab.0.right/153.823.1024.745/0.23.1280.777@0.23.1280.777" timestamp="1586794721543" />
