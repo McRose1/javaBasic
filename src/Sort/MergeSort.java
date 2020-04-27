@@ -1,7 +1,7 @@
 package Sort;
 
 /*  Merge Sort
-    Time = O(n * logn) Space = O(n)
+    Time = O(n*logn) Space = O(n)
     归并排序是 Divide and Conquer 的一个典型实例
     先 divide 到最小子问题，进行 sort，再一个一个 merge 回来
     缺点是开辟一个临时数组O(n)的时间复杂度不能省，并且最坏，平均和最佳的时间复杂度均为O(nlogn)

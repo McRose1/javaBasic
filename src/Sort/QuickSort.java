@@ -1,7 +1,7 @@
 package Sort;
 
 /*  Quick Sort
-    Time = O(n * logn) -> O(n^2) Space = O(1)
+    Time = O(n*logn) -> 有序时：O(n^2) Space = O(1)
     快速排序也是 Divide and Conquer 的一个典型实例，但是没有用额外空间
     pivot 的选择不同会影响时间复杂度，一般 random 选择
     follow up：Quick Select
