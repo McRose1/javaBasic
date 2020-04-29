@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c973b9b-aed1-47b1-b938-9b751fa0b598" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Thread/TestThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/InitialOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Polymorphism/InitialOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/InitialOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/DemoThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/Algorithm/UnionFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/Algorithm/UnionFind.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +40,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.TestThread">
-    <configuration name="KMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.KMP" />
+  <component name="RunManager" selected="Application.InitialOrderTest (1)">
+    <configuration name="DemoThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.DemoThread" />
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithm.*" />
+          <option name="PATTERN" value="Thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,12 +54,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polymorphism.Main" />
+    <configuration name="InitialOrderTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Inheritance.InitialOrderTest" />
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Polymorphism.*" />
+          <option name="PATTERN" value="Inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SqrtX_Y" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MathFunction.SqrtX_Y" />
+    <configuration name="InitialOrderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.InitialOrderTest" />
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MathFunction.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnionFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.UnionFind" />
+    <configuration name="order" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Polymorphism.order" />
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithm.*" />
+          <option name="PATTERN" value="Polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InitialOrderTest (1)" />
+        <item itemvalue="Application.order" />
+        <item itemvalue="Application.InitialOrderTest" />
+        <item itemvalue="Application.DemoThread" />
         <item itemvalue="Application.TestThread" />
-        <item itemvalue="Application.UnionFind" />
-        <item itemvalue="Application.SqrtX_Y" />
-        <item itemvalue="Application.KMP" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -172,6 +172,9 @@
       <workItem from="1587928896882" duration="274000" />
       <workItem from="1587932661817" duration="1739000" />
       <workItem from="1587936796710" duration="520000" />
+      <workItem from="1588035274272" duration="723000" />
+      <workItem from="1588113643557" duration="229000" />
+      <workItem from="1588115383929" duration="667000" />
     </task>
     <servers />
   </component>
@@ -192,38 +195,38 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="340" y="220" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.777@0.23.1280.777" timestamp="1587509481302" />
-    <state width="1238" height="135" key="GridCell.Tab.0.bottom" timestamp="1587921545841">
+    <state width="1238" height="421" key="GridCell.Tab.0.bottom" timestamp="1588129665057">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585889041294" />
-    <state width="1238" height="135" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1587921545841" />
+    <state width="1238" height="421" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1588129665057" />
     <state width="982" height="215" key="GridCell.Tab.0.bottom/153.800.1024.768/0.0.1280.800@153.800.1024.768" timestamp="1586645527222" />
     <state width="1238" height="210" key="GridCell.Tab.0.bottom/153.800.1024.768/0.23.1280.777@0.23.1280.777" timestamp="1587135487726" />
     <state width="1238" height="210" key="GridCell.Tab.0.bottom/153.823.1024.745/0.23.1280.777@0.23.1280.777" timestamp="1586794721543" />
     <state width="982" height="215" key="GridCell.Tab.0.bottom/153.823.1024.745/0.23.1280.777@153.823.1024.745" timestamp="1586645814780" />
-    <state width="1238" height="135" key="GridCell.Tab.0.center" timestamp="1587921545841">
+    <state width="1238" height="421" key="GridCell.Tab.0.center" timestamp="1588129665056">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1585889041293" />
-    <state width="1238" height="135" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1587921545841" />
+    <state width="1238" height="421" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1588129665056" />
     <state width="982" height="215" key="GridCell.Tab.0.center/153.800.1024.768/0.0.1280.800@153.800.1024.768" timestamp="1586645527220" />
     <state width="1238" height="210" key="GridCell.Tab.0.center/153.800.1024.768/0.23.1280.777@0.23.1280.777" timestamp="1587135487724" />
     <state width="1238" height="210" key="GridCell.Tab.0.center/153.823.1024.745/0.23.1280.777@0.23.1280.777" timestamp="1586794721542" />
     <state width="982" height="215" key="GridCell.Tab.0.center/153.823.1024.745/0.23.1280.777@153.823.1024.745" timestamp="1586645814778" />
-    <state width="1238" height="135" key="GridCell.Tab.0.left" timestamp="1587921545840">
+    <state width="1238" height="421" key="GridCell.Tab.0.left" timestamp="1588129665055">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1585889041292" />
-    <state width="1238" height="135" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1587921545840" />
+    <state width="1238" height="421" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1588129665055" />
     <state width="982" height="215" key="GridCell.Tab.0.left/153.800.1024.768/0.0.1280.800@153.800.1024.768" timestamp="1586645527218" />
     <state width="1238" height="210" key="GridCell.Tab.0.left/153.800.1024.768/0.23.1280.777@0.23.1280.777" timestamp="1587135487724" />
     <state width="1238" height="210" key="GridCell.Tab.0.left/153.823.1024.745/0.23.1280.777@0.23.1280.777" timestamp="1586794721542" />
     <state width="982" height="215" key="GridCell.Tab.0.left/153.823.1024.745/0.23.1280.777@153.823.1024.745" timestamp="1586645814775" />
-    <state width="1238" height="135" key="GridCell.Tab.0.right" timestamp="1587921545841">
+    <state width="1238" height="421" key="GridCell.Tab.0.right" timestamp="1588129665057">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1585889041293" />
-    <state width="1238" height="135" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1587921545841" />
+    <state width="1238" height="421" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1588129665057" />
     <state width="982" height="215" key="GridCell.Tab.0.right/153.800.1024.768/0.0.1280.800@153.800.1024.768" timestamp="1586645527221" />
     <state width="1238" height="210" key="GridCell.Tab.0.right/153.800.1024.768/0.23.1280.777@0.23.1280.777" timestamp="1587135487725" />
     <state width="1238" height="210" key="GridCell.Tab.0.right/153.823.1024.745/0.23.1280.777@0.23.1280.777" timestamp="1586794721543" />
