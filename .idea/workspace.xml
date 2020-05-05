@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c973b9b-aed1-47b1-b938-9b751fa0b598" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Function/打印杨辉三角.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/Inheritance/InitialOrderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/Inheritance/InitialOrderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/Inheritance/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/Inheritance/Parent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/Inheritance/SubClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/Inheritance/SubClass.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,6 +175,7 @@
       <workItem from="1588438194787" duration="38000" />
       <workItem from="1588438260276" duration="2117000" />
       <workItem from="1588460421428" duration="1000" />
+      <workItem from="1588533566477" duration="2200000" />
     </task>
     <servers />
   </component>
