@@ -10,7 +10,7 @@ package Test;
 import java.util.Scanner;
 /*
     区间dp，用dp[i][j]表示从第i个金猪到第j个金猪的最大收益，则：
-    dp[i][j]=max(dp[i][k]+dp[k][j]+mi×mk×mj)dp[i][j]
+    dp[i][j]=max(dp[i][k]+dp[k][j]+mi×mk×mj)dp[i][j]Ett
  */
 public class test1 {
     public static void main(String[] args) {
