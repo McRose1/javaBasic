@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c973b9b-aed1-47b1-b938-9b751fa0b598" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/TopologicalSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/ListStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/Algorithm/UnionFind详解.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/Algorithm/UnionFind详解.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +38,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.UnionFind">
+  <component name="RunManager" selected="Application.ListStack">
     <configuration name="打印杨辉三角" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Function.打印杨辉三角" />
       <module name="JavaBasic" />
@@ -63,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InitialOrderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.InitialOrderTest" />
+    <configuration name="ListStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.ListStack" />
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
@@ -104,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListStack" />
         <item itemvalue="Application.UnionFind" />
         <item itemvalue="Application.打印杨辉三角" />
         <item itemvalue="Application.InitialOrderTest (1)" />
         <item itemvalue="Application.order" />
-        <item itemvalue="Application.InitialOrderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +185,7 @@
       <workItem from="1589394431291" duration="841000" />
       <workItem from="1590614858773" duration="3406000" />
       <workItem from="1590713484357" duration="246000" />
+      <workItem from="1591712344396" duration="316000" />
     </task>
     <servers />
   </component>
@@ -203,38 +206,38 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="340" y="220" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.777@0.23.1280.777" timestamp="1587509481302" />
-    <state width="1238" height="246" key="GridCell.Tab.0.bottom" timestamp="1590630057042">
+    <state width="1238" height="314" key="GridCell.Tab.0.bottom" timestamp="1591712660726">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585889041294" />
-    <state width="1238" height="246" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1590630057042" />
+    <state width="1238" height="314" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1591712660726" />
     <state width="982" height="215" key="GridCell.Tab.0.bottom/153.800.1024.768/0.0.1280.800@153.800.1024.768" timestamp="1586645527222" />
     <state width="1238" height="210" key="GridCell.Tab.0.bottom/153.800.1024.768/0.23.1280.777@0.23.1280.777" timestamp="1587135487726" />
     <state width="1238" height="314" key="GridCell.Tab.0.bottom/153.823.1024.745/0.23.1280.777@0.23.1280.777" timestamp="1588445196884" />
     <state width="982" height="215" key="GridCell.Tab.0.bottom/153.823.1024.745/0.23.1280.777@153.823.1024.745" timestamp="1586645814780" />
-    <state width="1238" height="246" key="GridCell.Tab.0.center" timestamp="1590630057042">
+    <state width="1238" height="314" key="GridCell.Tab.0.center" timestamp="1591712660725">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1585889041293" />
-    <state width="1238" height="246" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1590630057042" />
+    <state width="1238" height="314" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1591712660725" />
     <state width="982" height="215" key="GridCell.Tab.0.center/153.800.1024.768/0.0.1280.800@153.800.1024.768" timestamp="1586645527220" />
     <state width="1238" height="210" key="GridCell.Tab.0.center/153.800.1024.768/0.23.1280.777@0.23.1280.777" timestamp="1587135487724" />
     <state width="1238" height="314" key="GridCell.Tab.0.center/153.823.1024.745/0.23.1280.777@0.23.1280.777" timestamp="1588445196884" />
     <state width="982" height="215" key="GridCell.Tab.0.center/153.823.1024.745/0.23.1280.777@153.823.1024.745" timestamp="1586645814778" />
-    <state width="1238" height="246" key="GridCell.Tab.0.left" timestamp="1590630057041">
+    <state width="1238" height="314" key="GridCell.Tab.0.left" timestamp="1591712660725">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1585889041292" />
-    <state width="1238" height="246" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1590630057041" />
+    <state width="1238" height="314" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1591712660725" />
     <state width="982" height="215" key="GridCell.Tab.0.left/153.800.1024.768/0.0.1280.800@153.800.1024.768" timestamp="1586645527218" />
     <state width="1238" height="210" key="GridCell.Tab.0.left/153.800.1024.768/0.23.1280.777@0.23.1280.777" timestamp="1587135487724" />
     <state width="1238" height="314" key="GridCell.Tab.0.left/153.823.1024.745/0.23.1280.777@0.23.1280.777" timestamp="1588445196883" />
     <state width="982" height="215" key="GridCell.Tab.0.left/153.823.1024.745/0.23.1280.777@153.823.1024.745" timestamp="1586645814775" />
-    <state width="1238" height="246" key="GridCell.Tab.0.right" timestamp="1590630057042">
+    <state width="1238" height="314" key="GridCell.Tab.0.right" timestamp="1591712660726">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1585889041293" />
-    <state width="1238" height="246" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1590630057042" />
+    <state width="1238" height="314" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1591712660726" />
     <state width="982" height="215" key="GridCell.Tab.0.right/153.800.1024.768/0.0.1280.800@153.800.1024.768" timestamp="1586645527221" />
     <state width="1238" height="210" key="GridCell.Tab.0.right/153.800.1024.768/0.23.1280.777@0.23.1280.777" timestamp="1587135487725" />
     <state width="1238" height="314" key="GridCell.Tab.0.right/153.823.1024.745/0.23.1280.777@0.23.1280.777" timestamp="1588445196884" />
