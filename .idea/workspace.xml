@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c973b9b-aed1-47b1-b938-9b751fa0b598" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Test/ListStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/Algorithm/UnionFind详解.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/Algorithm/UnionFind详解.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,6 +186,8 @@
       <workItem from="1590614858773" duration="3406000" />
       <workItem from="1590713484357" duration="246000" />
       <workItem from="1591712344396" duration="316000" />
+      <workItem from="1591797402756" duration="1000" />
+      <workItem from="1591888169600" duration="704000" />
     </task>
     <servers />
   </component>

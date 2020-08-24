@@ -3,7 +3,7 @@ package Sort;
 /*  冒泡排序
     每次比较两个相邻的元素，将较大的元素交换至右端
     每一次循环都能确定这次循环右边的最大值
-    Time = O(n^2) (best: O(n))
+    Time = O(n^2) (best: O(n)) (worst: O(n^2))
     Space = O(1)
     [3, 1, 6, 2, 5]
     1st:
