@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c973b9b-aed1-47b1-b938-9b751fa0b598" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Function/nextPower2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Function/求水仙花数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/Stack_Heap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/META-INF/JavaBasic.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/Test/ListStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/Test/ListStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/sort/quickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/sort/quickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +39,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.nextPower2">
-    <configuration name="打印杨辉三角" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Function.打印杨辉三角" />
+  <component name="RunManager" selected="Application.求水仙花数">
+    <configuration name="求水仙花数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Function.求水仙花数" />
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
@@ -54,12 +53,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InitialOrderTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Inheritance.InitialOrderTest" />
+    <configuration name="ListStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.ListStack" />
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Inheritance.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.ListStack" />
+    <configuration name="Stack_Heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Stack_Heap" />
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
@@ -106,13 +105,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.求水仙花数" />
+        <item itemvalue="Application.Stack_Heap" />
         <item itemvalue="Application.nextPower2" />
         <item itemvalue="Application.ListStack" />
         <item itemvalue="Application.UnionFind" />
-        <item itemvalue="Application.打印杨辉三角" />
-        <item itemvalue="Application.InitialOrderTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +204,10 @@
       <workItem from="1591797402756" duration="1000" />
       <workItem from="1591888169600" duration="704000" />
       <workItem from="1598461726112" duration="650000" />
+      <workItem from="1598786570004" duration="283000" />
+      <workItem from="1598839416611" duration="849000" />
+      <workItem from="1598848065230" duration="331000" />
+      <workItem from="1598933338171" duration="1533000" />
     </task>
     <servers />
   </component>
@@ -199,22 +215,30 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="314" key="GridCell.Tab.0.bottom" timestamp="1598462561755">
+    <state width="982" height="320" key="GridCell.Tab.0.bottom" timestamp="1598934987922">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="314" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1598462561755" />
-    <state width="1238" height="314" key="GridCell.Tab.0.center" timestamp="1598462561754">
+    <state width="982" height="320" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1598934987922" />
+    <state width="982" height="320" key="GridCell.Tab.0.bottom/153.800.1024.768/0.0.1280.800@153.800.1024.768" timestamp="1598934132954" />
+    <state width="982" height="320" key="GridCell.Tab.0.bottom/153.800.1024.768/0.23.1280.777@153.800.1024.768" timestamp="1598934966720" />
+    <state width="982" height="320" key="GridCell.Tab.0.center" timestamp="1598934987921">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="314" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1598462561754" />
-    <state width="1238" height="314" key="GridCell.Tab.0.left" timestamp="1598462561753">
+    <state width="982" height="320" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1598934987921" />
+    <state width="982" height="320" key="GridCell.Tab.0.center/153.800.1024.768/0.0.1280.800@153.800.1024.768" timestamp="1598934132953" />
+    <state width="982" height="320" key="GridCell.Tab.0.center/153.800.1024.768/0.23.1280.777@153.800.1024.768" timestamp="1598934966719" />
+    <state width="982" height="320" key="GridCell.Tab.0.left" timestamp="1598934987920">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="314" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1598462561753" />
-    <state width="1238" height="314" key="GridCell.Tab.0.right" timestamp="1598462561754">
+    <state width="982" height="320" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1598934987920" />
+    <state width="982" height="320" key="GridCell.Tab.0.left/153.800.1024.768/0.0.1280.800@153.800.1024.768" timestamp="1598934132952" />
+    <state width="982" height="320" key="GridCell.Tab.0.left/153.800.1024.768/0.23.1280.777@153.800.1024.768" timestamp="1598934966718" />
+    <state width="982" height="320" key="GridCell.Tab.0.right" timestamp="1598934987921">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="314" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1598462561754" />
+    <state width="982" height="320" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1598934987921" />
+    <state width="982" height="320" key="GridCell.Tab.0.right/153.800.1024.768/0.0.1280.800@153.800.1024.768" timestamp="1598934132953" />
+    <state width="982" height="320" key="GridCell.Tab.0.right/153.800.1024.768/0.23.1280.777@153.800.1024.768" timestamp="1598934966719" />
     <state width="1238" height="246" key="GridCell.Tab.1.bottom" timestamp="1590630057044">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
