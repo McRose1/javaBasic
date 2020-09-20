@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c973b9b-aed1-47b1-b938-9b751fa0b598" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lambda/Closures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambda/CollectionIteration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambda/ExceptionHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambda/Greeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambda/HelloWorldGreeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambda/MethodReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambda/MethodReference2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambda/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambda/Runnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambda/StandardFunctionInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambda/ThisReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambda/TypeInference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambda/Unit1Exer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambda/Unit1ExerJava7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambda/Unit1ExerJava8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Streams/Streams1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataTypes/TypeCasting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/Encapsulation/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/Encapsulation/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/MathFunction/gcd_lcm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/MathFunction/gcd_lcm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/Super/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/Super/Super.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/Super/Vehicle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lambda/Pass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lambda/Pass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,22 +41,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Streams1">
+  <component name="RunManager" selected="Application.TypeCasting">
     <configuration name="CollectionIteration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lambda.CollectionIteration" />
-      <module name="JavaBasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExceptionHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lambda.ExceptionHandling" />
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
@@ -128,6 +94,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TypeCasting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataTypes.TypeCasting" />
+      <module name="JavaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataTypes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -141,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TypeCasting" />
         <item itemvalue="Application.Streams1" />
         <item itemvalue="Application.CollectionIteration" />
         <item itemvalue="Application.MethodReference" />
         <item itemvalue="Application.ThisReference" />
-        <item itemvalue="Application.ExceptionHandling" />
       </list>
     </recent_temporary>
   </component>
@@ -238,6 +217,7 @@
       <workItem from="1600270287608" duration="212000" />
       <workItem from="1600304267091" duration="5131000" />
       <workItem from="1600309828643" duration="6601000" />
+      <workItem from="1600460727439" duration="479000" />
     </task>
     <servers />
   </component>
@@ -253,34 +233,34 @@
       <screen x="153" y="800" width="1024" height="768" />
     </state>
     <state x="478" y="897" key="#com.intellij.ide.util.MemberChooser/153.800.1024.768/0.0.1280.800@153.800.1024.768" timestamp="1600309074534" />
-    <state width="982" height="296" key="GridCell.Tab.0.bottom" timestamp="1600317791948">
-      <screen x="153" y="823" width="1024" height="745" />
+    <state width="982" height="173" key="GridCell.Tab.0.bottom" timestamp="1600461263374">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="982" height="251" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1600228456896" />
+    <state width="982" height="173" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1600461263374" />
     <state width="1238" height="246" key="GridCell.Tab.0.bottom/153.800.1024.768/0.0.1280.800@0.0.1280.800" timestamp="1600014926924" />
     <state width="982" height="319" key="GridCell.Tab.0.bottom/153.800.1024.768/0.0.1280.800@153.800.1024.768" timestamp="1600309448565" />
     <state width="982" height="320" key="GridCell.Tab.0.bottom/153.800.1024.768/0.23.1280.777@153.800.1024.768" timestamp="1598934966720" />
     <state width="982" height="296" key="GridCell.Tab.0.bottom/153.823.1024.745/0.23.1280.777@153.823.1024.745" timestamp="1600317791948" />
-    <state width="982" height="296" key="GridCell.Tab.0.center" timestamp="1600317791947">
-      <screen x="153" y="823" width="1024" height="745" />
+    <state width="982" height="173" key="GridCell.Tab.0.center" timestamp="1600461263374">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="982" height="251" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1600228456895" />
+    <state width="982" height="173" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1600461263374" />
     <state width="1238" height="246" key="GridCell.Tab.0.center/153.800.1024.768/0.0.1280.800@0.0.1280.800" timestamp="1600014926921" />
     <state width="982" height="319" key="GridCell.Tab.0.center/153.800.1024.768/0.0.1280.800@153.800.1024.768" timestamp="1600309448564" />
     <state width="982" height="320" key="GridCell.Tab.0.center/153.800.1024.768/0.23.1280.777@153.800.1024.768" timestamp="1598934966719" />
     <state width="982" height="296" key="GridCell.Tab.0.center/153.823.1024.745/0.23.1280.777@153.823.1024.745" timestamp="1600317791947" />
-    <state width="982" height="296" key="GridCell.Tab.0.left" timestamp="1600317791947">
-      <screen x="153" y="823" width="1024" height="745" />
+    <state width="982" height="173" key="GridCell.Tab.0.left" timestamp="1600461263374">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="982" height="251" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1600228456894" />
+    <state width="982" height="173" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1600461263374" />
     <state width="1238" height="246" key="GridCell.Tab.0.left/153.800.1024.768/0.0.1280.800@0.0.1280.800" timestamp="1600014926921" />
     <state width="982" height="319" key="GridCell.Tab.0.left/153.800.1024.768/0.0.1280.800@153.800.1024.768" timestamp="1600309448563" />
     <state width="982" height="320" key="GridCell.Tab.0.left/153.800.1024.768/0.23.1280.777@153.800.1024.768" timestamp="1598934966718" />
     <state width="982" height="296" key="GridCell.Tab.0.left/153.823.1024.745/0.23.1280.777@153.823.1024.745" timestamp="1600317791947" />
-    <state width="982" height="296" key="GridCell.Tab.0.right" timestamp="1600317791947">
-      <screen x="153" y="823" width="1024" height="745" />
+    <state width="982" height="173" key="GridCell.Tab.0.right" timestamp="1600461263374">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="982" height="251" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1600228456895" />
+    <state width="982" height="173" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1600461263374" />
     <state width="1238" height="246" key="GridCell.Tab.0.right/153.800.1024.768/0.0.1280.800@0.0.1280.800" timestamp="1600014926922" />
     <state width="982" height="319" key="GridCell.Tab.0.right/153.800.1024.768/0.0.1280.800@153.800.1024.768" timestamp="1600309448564" />
     <state width="982" height="320" key="GridCell.Tab.0.right/153.800.1024.768/0.23.1280.777@153.800.1024.768" timestamp="1598934966719" />
